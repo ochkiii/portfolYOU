@@ -1,11 +1,11 @@
 # Site settings
-title: portfolYOU
+title: Odbats site
 description: >- # this means to ignore newlines until "baseurl:"
   Always code as if the guy who ends up maintaining your code
   will be a violent psychopath who knows where you live.
 baseurl: "/portfolYOU"  # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-repository: YoussefRaafatNasry/portfolYOU
+repository: ochkiii/portfolYOU
 
 
 # Build settings
@@ -16,7 +16,7 @@ markdown: kramdown
 
 # Author Info
 author:
-  name          : John Doe
+  name          : Batsaikhan Odbat
   image         : https://bit.ly/2Fqe5kQ
   behance       : your_username
 # dribbble      : your_username
