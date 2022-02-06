@@ -4,7 +4,7 @@ collections_dir     : docs
 data_dir            : docs/_data
 baseurl             : "/portfolYOU-test"
 repository          : YoussefRaafatNasry/portfolYOU
-
+open_new_tab        : false
 
 ### Navbar Settings ###
 nav_exclude:
@@ -24,6 +24,8 @@ author:
 ### Posts ###
 permalink: /blog/:title
 
+disqus:
+  shortname: your-disqus-shortname
 
 ### Collections ###
 collections:
@@ -32,6 +34,13 @@ collections:
     permalink: /projects/:name
   elements:
     output: true
+
+
+### Analytics ###
+analytics:
+  enabled: true
+  google:
+    tracking_id: google-tracking-id
 
 
 ### Defaults for collections ###
@@ -46,7 +55,11 @@ defaults:
       type: "elements"
     values:
       layout: "element"
-
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false
 
 plugins:
   - jekyll-default-layout
